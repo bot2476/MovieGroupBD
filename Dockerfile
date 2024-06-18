@@ -1,8 +1,8 @@
 FROM python:3.11
 
-WORKDIR /Auto-Filter-Bot
+WORKDIR /MovieGroupBD
 
-COPY . /Auto-Filter-Bot
+COPY . /MovieGroupBD
 
 RUN pip install -r requirements.txt
 
